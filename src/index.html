@@ -14,8 +14,30 @@
     <!-- CSS Style -->
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
-    <h1 class="display-4 text-center">Welcome to Bootstrap 4</h1>
+  <body class="text-center">
+    <div class="signin">
+      <form action="" class=" container">
+        <img src="./img/img_avatar1.png"  class="rounded-circle img-fluid img-thumbnail mb-5" alt="">
+        <h1 class="h3 font-weight-normal mb-3">Sign in Form</h1>
+        <div class="input-email">
+          <!-- <label for="" class="sr-only">Email address</label> -->
+          <input type="email" class="form-control mt-3 mb-3" placeholder="Email" required autofocus>
+        </div>
+        <div class="input-password">
+          <label for="" class="sr-only">Passwords</label>
+          <input type="password" class="form-control mt-3 mb-3" placeholder="Passwords" required>
+        </div>
+        <div class="checkbox mt-3 mb-3">
+          <label for="">
+            <input type="checkbox" value="remember me"> Remember me
+          </label>
+        </div>
+        <div class="btn-login">
+          <input class="btn btn-primary btn-lg btn-block" type="submit">
+          <p class="lead mt-5">&copy; 2018-2019</p>
+        </div>
+      </form>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
